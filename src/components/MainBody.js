@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import SignUpForm from "./SignUpForm"
-import Header from "./"
+import MainHeader from "./MainHeader"
 
 const StyledMain = styled.div`
 background-color: #f5f5f5;
@@ -24,7 +24,7 @@ overflow: hidden;
 const MainBody = () => {
     return (
         <StyledMain>
-            <Header />
+            <MainHeader />
             <div className="container">
                 <div className="left-side">
                     {/* Background Image Here */}

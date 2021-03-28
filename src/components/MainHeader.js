@@ -17,7 +17,7 @@ h1 {
 }
 `
 
-const Header = () => {
+const MainHeader = () => {
     return (
         <StyledHeader>
             <h1>Grandma's Recipes</h1>
@@ -26,4 +26,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default MainHeader

@@ -124,7 +124,7 @@ const SignUpForm = () => {
         setUsers([...users, form])
         push("/recipes")
 
-        //! Alternative code below to PUT form data to an API
+        //! Alternative code below to PUT data
 
         // const newUser = {
         //     email: form.email,
@@ -135,7 +135,7 @@ const SignUpForm = () => {
         //     .then(res => {
         //         setUsers(res.data)
         //         setForm(initialState)
-        //?           push("/")
+        //           push("/recipes")
         //     })
         //     .catch(err => console.log(err.res))
     }
