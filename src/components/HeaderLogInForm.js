@@ -4,6 +4,8 @@ import styled from "styled-components"
 // import axios from "axios"
 
 const StyledLogIn = styled.form`
+ margin-left: 100px;
+ 
 input {
     margin-left: 25px;
     border-radius: 10px;

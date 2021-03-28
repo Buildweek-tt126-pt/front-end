@@ -5,7 +5,6 @@ import styled from "styled-components"
 const StyledHeader = styled.div`
 height: 15vh;
 display: flex;
-justify-content: space-around;
 align-items: center;
 
 h1 {
@@ -14,6 +13,11 @@ h1 {
     font-size: 75px;
     color: #b66e41;
     letter-spacing: 5px;
+    margin-left: 25px;
+}
+
+.btn {
+    margin-left: 200px;
 }
 
 button {
@@ -41,7 +45,7 @@ const LogOutHeader = () => {
     return (
         <StyledHeader>
             <h1>Grandma's Recipes</h1>
-                <div>
+                <div className="btn">
                     <Link to="/add-recipe"><button className="add">Add New Recipe</button></Link>
                     <Link to="/" onClick={handleLogOut}><button>Log Out</button></Link>
                 </div>
